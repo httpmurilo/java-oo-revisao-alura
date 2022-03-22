@@ -9,7 +9,7 @@ public class Conta {
     private double saldo;
     private Integer agencia;
     private Integer numero;
-    private String Titular;
+    private Cliente Titular;
 
     public Integer getId() {
         return id;
@@ -43,11 +43,11 @@ public class Conta {
         this.numero = numero;
     }
 
-    public String getTitular() {
+    public Cliente getTitular() {
         return Titular;
     }
 
-    public void setTitular(String titular) {
+    public void setTitular(Cliente titular) {
         Titular = titular;
     }
 
